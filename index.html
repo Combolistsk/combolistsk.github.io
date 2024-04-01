@@ -769,6 +769,7 @@ clearInterval(time_interval);
 var proceedBtn = document.getElementById("proceed");
 var timerBtn = document.getElementById("timer");
 proceedBtn.classList.remove("hide");
+window.location.href = `https://upfiles.com/LcLBG65`;
 }, timer_milisec);
 
 time_interval = setInterval(function () {
@@ -777,7 +778,7 @@ timer--;
 if (timer < 0) {
 clearInterval(time_interval);
 document.getElementById('timer').innerHTML = '0';
-window.location.href = `https://upfiles.com/LcLBG65`;
+
 }
 }, 1000);
 
